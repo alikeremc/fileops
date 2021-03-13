@@ -9,6 +9,7 @@ def excel_oku2():
     print(ogrno_baslik.value)
     print(ad_baslik.value)
 
+
     for i in range(1,5):
         print(sheet.cell(row=i, column=1).value,sheet.cell(row=i, column=2).value)
 

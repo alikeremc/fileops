@@ -35,5 +35,6 @@ def excel_yaz():
     WorkBook2.save('/Users/ali/Desktop/ogrenci.xlsx')
 
 
+
 if __name__ == "__main__":
     excel_yaz()
